@@ -1,0 +1,47 @@
+@use'variables';
+
+@mixin xl{
+    @media(max-width:variables.$xl){
+        @content;
+    }
+}
+@mixin xll{
+    @media(max-width:variables.$xll){
+        @content;
+    }
+}
+@mixin big{
+    @media (max-width: variables.$big){
+        @content;
+}
+}
+@mixin bigv2{
+    @media(max-width:variables.$bigv2){
+        @content;
+    } 
+}
+@mixin bigv3{
+    @media(max-width:variables.$bigv3){
+        @content;
+    } 
+}
+@mixin mediumg{
+    @media(max-width:variables.$mediumg){
+        @content;
+    } 
+}
+@mixin mediumgv2{
+    @media(max-width:variables.$mediumgv2){
+        @content;
+    }
+}
+@mixin smallb{
+    @media(max-width:variables.$smallb){
+        @content;
+    }
+}
+@mixin small{
+    @media(max-width:variables.$small){
+        @content;
+    }
+}
